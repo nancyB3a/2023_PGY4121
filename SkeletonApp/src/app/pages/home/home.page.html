@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      SkeletonApp
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <!-- {{interpolacion}} 
+          Permite mostrar los datos desde el script a la visual
+          verificar el data en el home.page.ts
+        -->
+        <ion-label>Usuario:{{data.usuario}} </ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
