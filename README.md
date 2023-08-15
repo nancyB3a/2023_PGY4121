@@ -5,4 +5,4 @@ Repositorios para Compartir con mis clases.
 
 Para reconstruir la carpeta node_modules colocar en la terminal: 
 
-***npm install***
+>>***npm install***
